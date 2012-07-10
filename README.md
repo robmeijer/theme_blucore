@@ -1,2 +1,2 @@
-BLue/Orange CMS Theme.
+Blue/Orange CMS Theme.
 ======================
