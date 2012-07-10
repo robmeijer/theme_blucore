@@ -1,0 +1,33 @@
+/*
+
+#2B3A42
+#3F5765
+#BDD4DE
+#EFEFEF
+#FF530D
+
+*/
+
+body {
+	background: #0D1214;
+	color: #BDD4DE;
+}
+
+a {
+	color: #FF530D;
+	border-bottom: 1px dashed;
+}
+
+a:hover {
+	color: #EFEFEF;
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+
+h1, h2 {
+	color: #EFEFEF;
+}
+
+#container {
+	background: #2B3A42;
+}
