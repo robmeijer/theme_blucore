@@ -1,10 +1,10 @@
 /*
 
-#2B3A42
-#3F5765
-#BDD4DE
-#EFEFEF
-#FF530D
+#2B3A42 - container background
+#3F5765 - container light-background
+#BDD4DE - main font
+#EFEFEF - link hover
+#FF530D - link colour
 
 */
 
@@ -24,10 +24,35 @@ a:hover {
 	text-decoration: none;
 }
 
-h1, h2 {
+h1 {
 	color: #EFEFEF;
+	font: bold 72px Arial, Helvetica, sans-serif;
+	letter-spacing: -0.1em;
+	margin: 30px 0 0;
+}
+
+h2#slogan {
+	color: #BDD4DE;
+	font: 12px Verdana, Arial, sans-serif;
+	margin: -13px 0 0 4px;
 }
 
 #container {
 	background: #2B3A42;
+}
+
+header {
+	background: -moz-linear-gradient(center top, #2B3A42 0%, #3F5765 100%) repeat scroll 0 0;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#about {
+    border-bottom: 1px dashed #444444;
+    color: #EFEFEF;
+    font: 25px "Yanone Kaffeesatz", Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 0 15px;
+    padding: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
